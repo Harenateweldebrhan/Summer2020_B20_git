@@ -20,6 +20,7 @@ public class ZombieAttack {
                             if (inhabitants[i] == 0 && inhabitants[i + 1] != 0) {
                                 inhabitants[i + 1] /= 2;
                                 i += 1;
+                                System.out.println("haru");
                             }
                         }
                     }
